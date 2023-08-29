@@ -1,0 +1,75 @@
+.phonebox {
+  margin: 0 auto;
+  transform: translateY(25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+  background-color: #f0f0f0;
+  border-radius: 0.3125rem;
+  box-shadow: 0rem 0rem 1.25rem rgba(0, 0, 0, 0.3);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 0.625rem;
+  margin-bottom: 1.25rem;
+  color: black;
+}
+
+.name,
+.phone {
+  display: flex;
+  gap: 0.625rem;
+}
+
+button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e3b59;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.625rem;
+  color: gray;
+}
+
+li button {
+  position: absolute;
+  top: 0;
+  right: -5em;
+  background-color: #e76572;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e76572;
+}
