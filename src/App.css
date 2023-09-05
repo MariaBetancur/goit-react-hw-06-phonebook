@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-  background-color: #1e3b59;
+  background-color: #0062cc;
 }
 
 ul {
@@ -62,7 +62,7 @@ li button {
   position: absolute;
   top: 0;
   right: -5em;
-  background-color: #e76572;
+  background-color: #dc3545;
   color: #fff;
   border: none;
   border-radius: 0.25rem;
@@ -71,5 +71,5 @@ li button {
 }
 
 li button:hover {
-  background-color: #e76572;
+  background-color: #c82333;
 }
